@@ -1,0 +1,35 @@
+{
+  "name": "excel-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend para análisis de Excel con IA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.63",
+    "@langchain/openai": "^0.0.14",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.5.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^21.5.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "excel",
+    "ai",
+    "langchain",
+    "microfinanzas"
+  ],
+  "author": "Sara Saalzar",
+  "license": "ISC"
+}
