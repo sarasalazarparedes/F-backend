@@ -1,6 +1,6 @@
 {
   "name": "excel-ai-backend",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "description": "Backend para análisis de Excel con IA",
   "main": "server.js",
   "scripts": {
@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
-  }
+  },
+  "keywords": [
+    "excel",
+    "ai",
+    "langchain",
+    "microfinanzas"
+  ],
+  "author": "Sara Saalzar",
+  "license": "ISC"
 }
