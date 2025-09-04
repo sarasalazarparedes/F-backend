@@ -1,6 +1,4 @@
-// routes/utils.js
 
-// Función GENÉRICA para parsear respuesta (SIN OVERFIT)
 function parseAnalysisResponse(aiResponse, question, sessionData) {
   const needsChart = question.toLowerCase().includes('gráfica') || 
                     question.toLowerCase().includes('gráfico') ||

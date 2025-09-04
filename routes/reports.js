@@ -1,4 +1,3 @@
-// routes/reports.js
 const { getSession, llm } = require('../server');
 const { generateComprehensiveAnalysis } = require('./utils');
 const { Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell, WidthType, AlignmentType, ImageRun } = require('docx');
